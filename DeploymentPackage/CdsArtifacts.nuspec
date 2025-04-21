@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="3.3.0">
+    <id>IIC.Cds.TestSolution.Sources</id>
+    <version>$version$</version>
+    <description>CDS dependency artifacts for the TestSolution solution.</description>
+    <authors>In Time Tec</authors>
+    <owners>Idaho Industrial Commission</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>    
+    <tags></tags>
+    <dependencies>      
+      <!--<dependency id="xxxxx.Sources" version="1.0.0.2" />-->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="temp\packed\TestSolution_managed.zip" target="content/CdsDependencies/TestSolution_$version$/TestSolution_managed.zip" />    
+   <!-- <file src="temp\packed\ConfigData.zip" target="content/CdsDependencies/TestSolution_$version$/ConfigData.zip" />
+    <file src="temp\packed\TestData.zip" target="content/CdsDependencies/TestSolutionCore_$version$/TestData.zip" /> -->
+  </files>
+</package>
