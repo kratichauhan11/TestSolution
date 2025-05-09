@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8448b78f-8f42-454e-8e2a-f8196b0419af}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form showImage="true" headerdensity="HighWithControls" solutionaction="Modified">
+      <tabs>
+        <tab name="SUMMARY_TAB" id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}" IsUserDefined="0" showlabel="true" expanded="true" locklevel="0" ordinalvalue="0">
+          <columns>
+            <column width="25%" id="2">
+              <sections>
+                <section name="SUMMARY_TAB_section_6" showlabel="false" showbar="false" locklevel="0" id="{d4c3ee9c-ba71-5cdb-31be-2aa505750472}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Top" ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell id="{8e24c7e3-6a40-5abb-eadb-254eba5478e2}" showlabel="true" colspan="1" auto="false" rowspan="7" ordinalvalue="10002">
+                        <control id="Contacts" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <VisualizationId />
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <events>
+        <event name="onload" application="true" active="true">
+          <Handlers solutionaction="Added">
+            <Handler functionName="showAlert" libraryName="new_/scripts/sample.js" handlerUniqueId="{a9333bb0-1e2b-436c-8bde-12842b2ee31a}" enabled="true" parameters="" passExecutionContext="true" ordinalvalue="0" />
+          </Handlers>
+        </event>
+      </events>
+      <footer id="{a2e002fa-37ab-42b0-b6c0-889f15548f85}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left" solutionaction="Added">
+        <rows>
+          <row>
+            <cell id="{6640f7b5-8ab4-4681-8819-1602bc3bc780}" showlabel="false" ordinalvalue="10000">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{a4ff9aed-9638-4423-93cf-c70f613ec77b}" showlabel="false" ordinalvalue="20001">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{607f55e7-30f3-4ec1-bb02-3f0d272016ee}" showlabel="false" ordinalvalue="30002">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <formLibraries solutionaction="Added">
+        <Library name="new_/scripts/sample.js" libraryUniqueId="{b99a1f4e-5465-478d-a072-f440fb3a189e}" />
+      </formLibraries>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Account" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Updated default Account form." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
