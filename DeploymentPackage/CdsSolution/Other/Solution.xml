@@ -1,23 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml CRMServerServiceabilityVersion="9.2.25041.00176" generatedBy="CrmLive" languagecode="1033" OrganizationSchemaType="Standard" OrganizationVersion="9.2.25035.190" SolutionPackageVersion="9.2" version="9.2.25035.190" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml CRMServerServiceabilityVersion="9.2.25044.00170" generatedBy="CrmLive" languagecode="1033" OrganizationSchemaType="Standard" OrganizationVersion="9.2.25043.194" SolutionPackageVersion="9.2" version="9.2.25043.194" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>TestSolution</UniqueName>
     <LocalizedNames>
       <LocalizedName description="TestSolution" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>0.2025.0421.0925</Version>
+    <Version>0.2025.0509.0344</Version>
     <Managed>2</Managed>
     <Publisher>
-      <UniqueName>Cr96c0e</UniqueName>
+      <UniqueName>DefaultPublisherorg5df8828e</UniqueName>
       <LocalizedNames>
-        <LocalizedName description="CDS Default Publisher" languagecode="1033" />
+        <LocalizedName description="Default Publisher for org5df8828e" languagecode="1033" />
       </LocalizedNames>
-      <Descriptions />
+      <Descriptions>
+        <Description description="Default publisher for this organization" languagecode="1033" />
+      </Descriptions>
       <EMailAddress xsi:nil="true"></EMailAddress>
       <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
-      <CustomizationPrefix>cr90b</CustomizationPrefix>
-      <CustomizationOptionValuePrefix>67228</CustomizationOptionValuePrefix>
+      <CustomizationPrefix>new</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10000</CustomizationOptionValuePrefix>
       <Addresses>
         <Address>
           <AddressNumber>1</AddressNumber>
@@ -78,7 +80,10 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent behavior="2" schemaName="account" type="1" />
+      <RootComponent behavior="1" schemaName="account" type="1" />
+      <RootComponent behavior="1" schemaName="contact" type="1" />
+      <RootComponent behavior="0" schemaName="new_/scripts/sample.js" type="61" />
+      <RootComponent behavior="0" schemaName="new_KratiLearning" type="80" />
     </RootComponents>
     <MissingDependencies />
   </SolutionManifest>
